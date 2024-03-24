@@ -1,0 +1,23 @@
+.container {
+    max-width: 400px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 400px;
+    opacity: 0.9;
+    border-radius: 5px;
+    font-size: 1.5em;
+}
+
+.button:active {
+    opacity:1;
+  }
